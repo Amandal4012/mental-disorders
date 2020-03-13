@@ -23,13 +23,15 @@ email: amandal4012@hstat.org
 description: >- # this means to ignore newlines until "baseurl:"
   This website seeks to inform young people about what mental disorders are, the types there are, how they occur and how to treat them. By the end of this website, you will be able to understand people around you who have them.      
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mental-disorders.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+remote_theme: poole/hyde 
 plugins:
+
+  - port: 8080
   - jekyll-feed
 
 # Exclude from processing.
